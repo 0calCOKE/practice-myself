@@ -1,0 +1,63 @@
+#hero {
+  height: 800px;
+  background-image: url("/images/places/ocean.jpg");
+  /* background-image: url() 백그라운드 이미지 넣는건데, 뒤에 url()을 사용.*/
+  background-position: center;
+  /* 백그라운드에 넣은 이미지 초점. center = 정중앙. */
+  background-size: cover;
+  /* background-size: cover; => 백그라운드에 넣은 이미지 사이즈. 보통 cover 사용.
+    기본적으로 전체적으로 덮어줌. */
+  position: static;
+  /* position: relative와 static(고정) 말고도 absolute가 있는데, 
+     이 것은 아예 문서 흐름 자체를 벗어나게 할 수 있다. */
+  /* position: => The position CSS property sets how an element is positioned in a document. 
+     The top, right, bottom, and left properties determine the final location of positioned elements.
+    absolut => 아예 문서 흐름에서 벗어나게 할 수 있다. 즉, position: relative가 적용된 첫 번째 선조에 
+    상대적이게 되는 것. */
+    /* position: fixed; => 내가 스크롤을 내리면 우리가 보는 화면(뷰포트)을 따라 내려온다. 
+    정확히는 뷰포트에 대해 상대적인 것. */
+}
+
+#hero-content {
+  width: 900px;
+  background-color: rgba(51, 47, 47, 0.8);
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+  border-radius: 8px;
+  text-align: center;
+  padding: 50px 0;
+  margin: 0 auto;
+  position: relative;
+  top: 200px;
+}
+
+#hero-content h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-family: "Archivo", sans-serif;
+  margin: 0;
+}
+
+#hero-content p {
+  color: white;
+  text-transform: uppercase;
+  font-family: "Archivo", sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 32px;
+}
+
+#hero-content a {
+  text-decoration: none;
+  background-color: rgb(255, 251, 0);
+  padding: 12px 24px;
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 8px;
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
+
+#hero-content a:hover {
+  background-color: rgb(248, 238, 0);
+}

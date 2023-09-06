@@ -1,0 +1,62 @@
+body {
+  font-family: 'Archivo', sans-serif;
+  margin: 0;
+}
+
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  padding: 15px 60px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#page-logo a {
+  padding: 10px;
+  font-family: 'Karla', sans-serif;
+  color: rgb(245, 243, 160);
+  font-size: 50px;
+  font-weight: 900;
+  text-decoration: none;
+  text-transform: uppercase;
+  /* text-transform = 텍스트가 외적으로 어떻게 보여지는지 결정함 */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+  /* text-shadow: 1px(가로) 1px(세로) 2px(블러 반경) rgb(0, 0, 0)(컬러), 컬러에 rgba=(r, g, b, (농도)); */
+}
+
+header ul {
+    display: flex;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+header a {
+    color: rgb(255, 251, 0);
+    text-decoration: none;
+    font-size: 16px;
+    padding: 12px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0);
+    border-radius: 6px;
+}
+
+header a:hover {
+    color: rgb(77, 77, 77);
+    background-color: rgb(255, 251, 0);
+}
+
+
+/* ul li a {
+  text-decoration: none;
+} */
+
