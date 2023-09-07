@@ -14,14 +14,14 @@
      The top, right, bottom, and left properties determine the final location of positioned elements.
     absolut => 아예 문서 흐름에서 벗어나게 할 수 있다. 즉, position: relative가 적용된 첫 번째 선조에 
     상대적이게 되는 것. */
-    /* position: fixed; => 내가 스크롤을 내리면 우리가 보는 화면(뷰포트)을 따라 내려온다. 
+  /* position: fixed; => 내가 스크롤을 내리면 우리가 보는 화면(뷰포트)을 따라 내려온다. 
     정확히는 뷰포트에 대해 상대적인 것. */
 }
 
 #hero-content {
   width: 900px;
   background-color: rgba(51, 47, 47, 0.8);
-  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+  /* box-shadow: 2px 4px 8px rgb(68, 67, 67); */
   border-radius: 8px;
   text-align: center;
   padding: 50px 0;
